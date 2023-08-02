@@ -1,0 +1,48 @@
+.profile-sidebar {
+  background-color: #fefedf;
+  padding: 20px;
+  height: 100%;
+}
+
+.profile-image img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-options .nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: darkblue;
+}
+
+.profile-options .nav-link:hover {
+  background-color: #f0f0f0;
+  color:green;
+}
+
+.profile-options .active .nav-link {
+  background-color: #dddddd;
+  color: #333333;
+}
+
+.profile-options .nav-link.profile {
+  color: #4caf50;
+}
+
+.profile-options .nav-link.settings {
+  color: #2196f3;
+}
+
+.profile-options .nav-link.bookmarks {
+  color: #ff9800;
+}
+
+.profile-options .nav-link.notifications {
+  color: #e91e63;
+}
+
+.profile-options .nav-link .material-icons {
+  margin-right: 8px;
+}

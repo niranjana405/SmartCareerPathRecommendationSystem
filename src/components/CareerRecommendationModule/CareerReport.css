@@ -1,0 +1,36 @@
+
+h3.career-cluster {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    color: #007bff;
+    text-align: center;
+
+  }
+  
+ 
+ 
+  .semicolon {
+    margin: 0 5px;
+  }
+  
+
+  h2 {
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align : center;
+    color: #007bff;
+
+  }
+  
+
+  /* Display sector and its output on the same line with semicolon */
+  .div-sector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .semicolon {
+    margin: 0 5px;
+  }
+  

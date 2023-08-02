@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Apply styles to the Navbar */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Apply styles to the buttons */
+  button {
+    margin: 5px;
+  }
+  
+  /* Apply styles to the PersonalityTest component */
+  .personality-test {
+    margin-bottom: 30px;
+  }
+  
+  /* Apply styles to the EditQuestion component */
+  .edit-question {
+    margin-bottom: 30px;
+  }
+  
+  /* Apply styles to the content container */
+  .container {
+    margin-top: 30px;
+  }
+  
+  /* Apply styles to the selected question message */
+  .selected-question {
+    margin-top: 20px;
+  }
+  

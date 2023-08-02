@@ -1,0 +1,19 @@
+.form-label {
+    color: red;
+  }
+  
+  .custom-select {
+    color: blue;
+    background-color: #f8f9fa;
+  }
+  
+
+  #div1{
+
+    border:1px solid blue;
+    color:black;
+    height:100px;
+    overflow:auto;
+    /* overflow: hidden; */
+    overflow-y: hidden;
+}

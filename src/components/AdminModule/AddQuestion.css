@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Add general styles for the entire application here */
+
+/* Style for the container holding the form */
+
+  
+  /* Style for the question container */
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the input fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the "Save Questions" button */
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the "Add Question" button */
+  button[type="button"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for the Navbar */
+  .navbar {
+    padding: 10px;
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Style for the Navbar brand */
+  .navbar-brand {
+    cursor: pointer;
+  }
+  
+  /* Style for the "Homes" button */
+  .nav-item.nav-link {
+    cursor: pointer;
+    color: #fff;
+  }
+  

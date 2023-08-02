@@ -1,0 +1,8 @@
+/* Your other styles ... */
+
+/* Apply this style for the selected answer */
+.selected-answer {
+    background-color: green;
+    color: white;
+  }
+  
