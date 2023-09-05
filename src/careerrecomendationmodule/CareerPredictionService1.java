@@ -5,8 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import weka.classifiers.Classifier;
 import weka.classifiers.lazy.IBk;
-import weka.core.DenseInstance;
-import weka.core.Instance;
+	import weka.core.DenseInstance;
+	import weka.core.Instance;
 import weka.core.Instances;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,7 +23,10 @@ import java.util.List;
 import java.util.Map;
 import weka.classifiers.trees.J48;
 import weka.core.Attribute;
+import weka.core.Capabilities;
 import weka.core.converters.ConverterUtils.DataSource;
+import weka.core.pmml.jaxbbindings.DecisionTree;
+
 import com.niranjana.PersonalityQuestionModule.PersonalityTestQuestion;
 import com.niranjana.PersonalityQuestionModule.QuestionRepository;
 import java.util.logging.Level;
@@ -37,18 +40,24 @@ import java.util.stream.Collectors;
 
 @Service
 public class CareerPredictionService1 {
-
 	private Classifier classifier;
 	private Instances dataset;
 	private static final Logger LOGGER = Logger.getLogger(CareerPredictionService1.class.getName());
+	public void setClassifier(Classifier classifier) {
+        this.classifier = classifier;
+    }
 
+    // Add a setter method for the dataset
+    public void setDataset(Instances dataset) {
+        this.dataset = dataset;
+    }
 	@PostConstruct public void init() throws Exception {
 		//dataset = new Instances(new FileReader("/Users/niranjana/Desktop/Datasets/tab.arff"));
 //LOAD THE FILE
 		dataset = new Instances(new FileReader("/Users/niranjana/Desktop/Datasets/tab1.arff"));
 		
   dataset.setClassIndex(dataset.numAttributes() - 1);
-    classifier = new NaiveBayes();
+  classifier = new NaiveBayes();
   classifier.buildClassifier(dataset); }
 
 
